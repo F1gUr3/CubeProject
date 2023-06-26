@@ -35,7 +35,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 100px;
+    font-size: 5rem;
+    text-align: center;
 }
 
 
@@ -57,13 +58,12 @@ span{
     left: 50%;
     transform: translate(-50%, -50%);
     transform: rotate(0deg);
-    cursor: pointer;
 }
 
 .arrow span {
     display: block;
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
     border-bottom: 5px solid white;
     border-right: 5px solid white;
     transform: rotate(45deg);
