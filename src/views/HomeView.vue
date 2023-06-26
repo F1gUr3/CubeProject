@@ -6,18 +6,16 @@ import Banner from '../components/banner.vue'
 
 <template>
 
-<div id="container">
+<header>
     <Navigation></Navigation>
     <banner></banner>
-</div>
+</header>
+    
 
 </template>
 
 <style scoped>
 
-#container{
-    position: absolute;
-    width: auto;
-}
+
 
 </style>

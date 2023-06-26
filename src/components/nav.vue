@@ -27,7 +27,10 @@ import { RouterLink } from 'vue-router';
     height: 100px;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
-    position: relative;
+    
+    position: absolute;
+    top: 0;
+    z-index: 9999;
 
 }
 #brand-logo{
