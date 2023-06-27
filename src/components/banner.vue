@@ -11,7 +11,7 @@
         <span></span>
         <span></span>
     </div>
-    <h3 id="banner-text"> <span>Kocka </span> <br > Projekt</h3>
+    <h3 id="banner-text"> <span>Kocka </span> Projekt</h3>
 </div>
 </template>
 
@@ -23,15 +23,15 @@
     background-image: 
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url("../assets/banner-img.png");
-            width: 100vw;
-        height: 100vh;
+           
+        height: 87vh;
         
 }
 
 
 #banner-text{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -54,7 +54,7 @@ span{
 /* Arrow animation*/
 .arrow {
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     transform: rotate(0deg);
