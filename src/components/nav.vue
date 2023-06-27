@@ -1,5 +1,9 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import { ref } from 'vue';
+
+
+const isVisible = ref(false);
 </script>
 
 <template>
@@ -12,11 +16,27 @@ import { RouterLink } from 'vue-router';
        <li class="menu-item"><RouterLink to="/team">Csapat</RouterLink></li>
        <li class="menu-item"><RouterLink to="/gallery">Galéria</RouterLink></li>
        <li class="menu-item"><RouterLink to="/cube">A Kockáról</RouterLink></li> 
-
+        
     </ul>
+
+    
+
+    <div id="hamburger-menu" >
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+    
+    
 </div>
 
 </div>
+<div class="asd">
+    asd
+</div>
+
 
 </template>
 
@@ -33,6 +53,17 @@ import { RouterLink } from 'vue-router';
     z-index: 9999;
 
 }
+.mobile-menu{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 1);
+    
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+
+}
+
 #brand-logo{
     height: 75%;
     justify-content: center;
@@ -65,6 +96,43 @@ import { RouterLink } from 'vue-router';
     text-decoration: underline;
     font-size: 105%;
 }
+#hamburger-menu>span{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin-top: 10px;
 
+}
+#hamburger-menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    display: none;
+}
+.hamburger-menu-items>ul{
+    
+}
+.hamburger-menu-items{
+list-style: none;
+}
+
+
+.hamburger-menu-item>a{
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu-item {
+    display: none;
+}
+#hamburger-menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    display: flex;
+}
+
+}
 
 </style>

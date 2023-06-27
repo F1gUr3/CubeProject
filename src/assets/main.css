@@ -18,4 +18,9 @@ a:visited{
     
 }
 
+ul{ /* Solving navigation list error, remove when fixed*/
+    list-style: none;
+
+}
+
 

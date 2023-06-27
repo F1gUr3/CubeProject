@@ -94,4 +94,18 @@ span{
 }
 /* Arrow animation*/
 
+@media screen and (max-width: 768px) {
+    .arrow span {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+}
+
 </style>
