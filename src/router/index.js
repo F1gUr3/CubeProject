@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import TeamView from '../views/TeamView.vue'
 import GalleryView from '../views/GalleryView.vue'
 import CubeView from '../views/CubeView.vue'
+import impressumView from '../views/impressumView.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +24,11 @@ const router = createRouter({
         name: 'gallery',
         component: GalleryView
     },
+    {
+      path: '/impressum',
+      name: 'impressum',
+      component: impressumView
+  },
     {
         path: '/cube',
         name: 'cube',

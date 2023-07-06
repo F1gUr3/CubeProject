@@ -1,9 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import { ref } from 'vue';
+//import { ref, onMounted, onUnmounted, watch } from 'vue';
 
 
-const isVisible = ref(false);
+
+
+
 </script>
 
 <template>
@@ -19,7 +21,6 @@ const isVisible = ref(false);
         
     </ul>
 
-    
 
     <div id="hamburger-menu" >
         <span></span>
@@ -33,9 +34,7 @@ const isVisible = ref(false);
 </div>
 
 </div>
-<div class="asd">
-    asd
-</div>
+
 
 
 </template>
@@ -48,21 +47,12 @@ const isVisible = ref(false);
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 9999;
 
 }
-.mobile-menu{
-    width: 100%;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 1);
-    
-    position: absolute;
-    top: 0;
-    z-index: 9999;
 
-}
 
 #brand-logo{
     height: 75%;
@@ -80,6 +70,7 @@ const isVisible = ref(false);
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-bottom: 0px;
     
     
 }
@@ -89,6 +80,7 @@ const isVisible = ref(false);
 }
 .menu-item>a{
     transition-duration: 0.3s;
+    text-decoration: none;
     color: white;
 
 }
