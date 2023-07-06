@@ -46,7 +46,7 @@ footer{
     
 }
 .footer-body{
-    background-color: #FF0000;
+    background-color: black;
 }
 .separator{
     width: 95%;
@@ -69,8 +69,8 @@ footer{
 
 }
 .menu-item>a:hover{
-    color: white;
-    background-color: black ;
+    color: black;
+    background-color: #F9F871 ;
     border-radius: 2px;
     padding: 0.2rem;
     text-decoration: none;

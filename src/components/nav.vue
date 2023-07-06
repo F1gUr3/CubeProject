@@ -50,7 +50,7 @@ import { RouterLink } from 'vue-router';
     position: fixed;
     top: 0;
     z-index: 9999;
-
+    backdrop-filter: blur(5px);
 }
 
 
