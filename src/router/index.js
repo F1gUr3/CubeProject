@@ -6,6 +6,7 @@ import CubeView from '../views/CubeView.vue'
 import impressumView from '../views/impressumView.vue'
 
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
