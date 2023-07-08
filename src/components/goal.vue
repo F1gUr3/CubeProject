@@ -2,143 +2,281 @@
 </script>
 <template>
     <div id="goal">
-        <div class="bg-goals-page-bg">
-                <div class="relative">
-                    <div class="relative pt-99px mb-461px mx-16 lg:ml-353px">
-                        <img class="absolute top-40px -left-55px]" src="../assets/line2.png"/>
-                        <div class="flex flex-col gap-156px font-normal">
-                            <div>
-                                <h3 class="text-3xl lg:text-42 lg:leading-55 text-flickr-pink">Lorem Ipsum Here_</h3>
-                                <p class="text-26 leading-34 text-black max-w-877px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> 
-                            </div>
-                            <div>
-                                <h3 class="text-3xl lg:text-42 lg:leading-55 text-flickr-pink">Lorem Ipsum Here_</h3>
-                                <p class="text-26 leading-34 text-black max-w-877px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                            </div>
-                            <div>
-                                <h3 class="text-3xl lg:text-42 lg:leading-55 text-flickr-pink">Lorem Ipsum Here_</h3>
-                                <p class="text-26 leading-34 text-black max-w-877px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> 
-                            </div>
-                            <div>
-                                <h3 class="text-3xl lg:text-42 lg:leading-55 text-flickr-pink">Lorem Ipsum Here_</h3>
-                                <p class="text-26 leading-34 text-black max-w-877px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                            </div>
-                            <div>
-                                <h3 class="text-3xl lg:text-42 lg:leading-55 text-flickr-pink">Lorem Ipsum Here_</h3>
-                                <p class="text-26 leading-34 text-black max-w-877px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p> 
-                            </div>
-                        </div>
+          <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Project menete</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tenetur ipsam quas sit voluptatibus enim laboriosam dolorem voluptatum expedita nihil ab beatae est modi temporibus ipsum, dolorum distinctio laborum ea.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/asd/1.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2022 október</h4>
+                                        <h4 class="subheading">Lorem Ipsum dolor</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/asd/2.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2022 november</h4>
+                                        <h4 class="subheading">Lorem Ipsum dolor</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/asd/1.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2022 október</h4>
+                                        <h4 class="subheading">Lorem Ipsum dolor</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                  <div class="timeline-image">
+                                      <img class="img-circle img-responsive" src="img/asd/2.jpg" alt="">
+                                  </div>
+                                  <div class="timeline-panel">
+                                      <div class="timeline-heading">
+                                          <h4>2022 november</h4>
+                                          <h4 class="subheading">Lorem Ipsum dolor</h4>
+                                      </div>
+                                      <div class="timeline-body">
+                                          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                      </div>
+                                  </div>
+                              </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <h4>Elkészült 
+                                        <br>a
+                                        <br>Kocka!</h4>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+          </section>
     </div>
 </template>
 <style scoped>
-.bg-goals-page-bg {
-  background-image: url('/assets/goals-page/goals-page-bg.png');
-  background-position: top;
-  background-repeat: no-repeat;
-  text-align: left;
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
 }
 
-.text-left {
-  text-align: left;
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
 }
 
-.relative {
-  position: relative;
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
 }
 
-.pt-99px {
-  padding-top: 99px;
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
 }
 
-.mb-461px {
-  padding-bottom: 461px;
+.timeline>li:after {
+    clear: both;
 }
 
-.mx-16 {
-  margin-left: 16px;
-  margin-right: 16px;
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
 }
 
-.lg\:ml-353px {
-  margin-left: 253px;
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
 }
 
-.absolute {
-  position: absolute;
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
 }
 
-.top-40px {
-  top: 40px;
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #1ee2e7;
+}
+section {
+    padding: 100px 0;
+}
+.timeline>li .timeline-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+h3{
+  margin-inline: 50px;
+  margin-block: 120px;
+}
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
 }
 
-.-left-55px {
-  left: -55px;
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
 }
 
-.font-zeroes1 {
-  font-family: 'Zeroes one', sans-serif;
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
 }
 
-.text-6xl {
-  font-size: 69px;
+.timeline>li:last-child {
+    margin-bottom: 0;
 }
 
-.lg\:text-98 {
-  font-size: 98px;
+@media(min-width:768px) {
+  h3{
+    margin-inline: 20px;
+    margin-block: 60px;
+  }
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
 }
 
-.lg\:leading-118 {
-  line-height: 118px;
+@media(min-width:992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
 }
 
-.pb-104px {
-  padding-bottom: 104px;
-}
+@media(min-width:1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
 
-.flex {
-  display: flex;
-}
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
 
-.flex-col {
-  flex-direction: column;
-}
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
 
-.gap-156px{
-    gap: 180px;
-}
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
 
-.font-normal {
-  font-weight: normal;
-}
-
-.text-3xl {
-  font-size: 42px;
-}
-
-.lg\:text-42 {
-  font-size: 42px;
-}
-
-.lg\:leading-55 {
-  line-height: 55px;
-}
-
-.text-flickr-pink {
-  color: #F4007F;
-}
-
-.text-26 {
-  font-size: 26px;
-}
-
-.leading-34 {
-  line-height: 34px;
-}
-
-.max-w-877px {
-  max-width: 877px;
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
 }
 </style>

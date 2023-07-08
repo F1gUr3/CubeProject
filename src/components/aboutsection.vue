@@ -5,19 +5,19 @@
 
 <template>
     <div id="aboutsection">
-		<div><h2 class="cim"><span class="span1">Mi ez az oldal?</span></h2></div>
+      <div><h2 class="cim"><span class="span1">Mi ez az oldal?</span></h2></div>
 
-		<div class="container cont">
-		
-			<div class="row" id="row">
-				<div class="col-md-6 szoveg">
-			
-				<p class="section1">2014-ben Svédországban a Raoul Wallenberg Academy álltal kezdeményezett országos „Kockaprojekt” 2016-re nemzetközivé vált. A Kockaprojekt célja az ENSZ Emberjogi nyilatkozat megismertetése diákokkal. Svédországban minden évben egy-egy iskola feldolgoz egy-egy paragrafust a 30-ból. A külföldi – így a magyarországi - Kockaprojektek esetén az érintett iskolák választhatják meg, mely paragrafust mutatják be, melyeket kocka alakú konténerben mutatnak be. Az elkészült kockákat minden évben augusztusban Stockholmban bemutatják egy ünnepség keretében. Az oldal célja a magyar Kockaprojektek bemutatása.</p>
-				</div>
-				<div class="col-md-6">
-				<img id="img" class="img-fluid" src="" alt="" width="350px">
-				</div>
-			</div>
+      <div class="container cont">
+      
+        <div class="row" id="row">
+          <div class="col-md-6 szoveg">
+        
+          <p class="section1">2014-ben Svédországban a Raoul Wallenberg Academy álltal kezdeményezett országos „Kockaprojekt” 2016-re nemzetközivé vált. A Kockaprojekt célja az ENSZ Emberjogi nyilatkozat megismertetése diákokkal. Svédországban minden évben egy-egy iskola feldolgoz egy-egy paragrafust a 30-ból. A külföldi – így a magyarországi - Kockaprojektek esetén az érintett iskolák választhatják meg, mely paragrafust mutatják be, melyeket kocka alakú konténerben mutatnak be. Az elkészült kockákat minden évben augusztusban Stockholmban bemutatják egy ünnepség keretében. Az oldal célja a magyar Kockaprojektek bemutatása.</p>
+          </div>
+          <div class="col-md-6">
+          <img id="img" class="img-fluid" src="" alt="" width="350px">
+          </div>
+        </div>
 	    </div>
         
     </div>
@@ -43,7 +43,7 @@ p {
   width: 100%;
   padding: 10px;
   margin-bottom: 80px;
-  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(242, 245, 248) 35%, rgb(236, 236, 237) 100%);
+
   box-shadow: 0 13px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin-top: 30px;
