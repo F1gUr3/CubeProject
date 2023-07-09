@@ -161,9 +161,35 @@ section {
     font-size: 10px;
     line-height: 14px;
 }
+h1{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 h3{
-  margin-inline: 50px;
-  margin-block: 120px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin-inline: 50px;
+    margin-block: 120px;
+    text-transform: none;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+h4{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
