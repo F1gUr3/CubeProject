@@ -9,7 +9,7 @@ import footerComponent from '../components/footerComponent.vue'
 </script>
 
 <template>
-
+<link rel="stylesheet" href="../assets/main.css">
     <header>
         <Navigation></Navigation>
         

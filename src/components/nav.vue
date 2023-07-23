@@ -9,30 +9,32 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-
-<div class="navigation-bar">
-<img src="../assets/kocka-logo.png" alt="Logo" id="brand-logo">
-<div class="list-items">
-    <ul>
-       <li class="menu-item"><RouterLink to="/">Főoldal</RouterLink></li>
-       <li class="menu-item"><RouterLink to="/team">Csapat</RouterLink></li>
-       <li class="menu-item"><RouterLink to="/gallery">Galéria</RouterLink></li>
-       <li class="menu-item"><RouterLink to="/cube">A Kockáról</RouterLink></li> 
+<link rel="stylesheet" href="../assets/main.css">
+<div class="hidden xl:block 2xl:block">
+    <div class="navigation-bar">
+    <img src="../assets/kocka-logo.png" alt="Logo" id="brand-logo">
+    <div class="list-items">
+        <ul>
+           <li class="menu-item"><RouterLink to="/">Főoldal</RouterLink></li>
+           <li class="menu-item"><RouterLink to="/team">Csapat</RouterLink></li>
+           <li class="menu-item"><RouterLink to="/gallery">Galéria</RouterLink></li>
+           <li class="menu-item"><RouterLink to="/cube">A Kockáról</RouterLink></li> 
         
-    </ul>
+        </ul>
 
 
-    <div id="hamburger-menu" >
-        <span></span>
-        <span></span>
-        <span></span>
+        <div id="hamburger-menu" >
+            <span></span>
+            <span></span>
+            <span></span>
 
+        </div>
+
+    
+    
     </div>
 
-    
-    
 </div>
-
 </div>
 
 
@@ -40,6 +42,9 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style scoped>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .navigation-bar{
     width: 100%;
